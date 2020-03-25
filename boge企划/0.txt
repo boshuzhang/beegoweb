@@ -1,0 +1,13 @@
+练习代码目录
+0.https://github.com/boshuzhang/beegoweb.git
+
+web初探标杆参考地址
+1.https://github.com/iissy/goweb
+
+最终目标产品标杆
+1.http://c.biancheng.net/
+
+beego项目源码参考
+https://github.com/lhtzbj12/sdrms
+博客参考
+https://blog.csdn.net/lhtzbj12/article/details/78847482

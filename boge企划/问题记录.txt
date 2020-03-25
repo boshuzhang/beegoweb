@@ -1,0 +1,22 @@
+1.[go][beego] needs a primary key field, default is to use 'id' if not set
+  在beego中 新建model时不声明主键会在编译时出错  
+type Relationship struct {  
+      Id            string
+      User          string  
+      RepostUser    string  
+      AtUser        string  
+      RepostLevel   string  
+      AtLevel       string  
+      Relationships    *Relationship `orm:"rel(fk)"`  
+} 
+
+type Relationship struct {  
+      Id            string `orm:"column(uid);pk"` // 设置主键  
+      User          string  
+      RepostUser    string  
+      AtUser        string  
+      RepostLevel   string  
+      AtLevel       string  
+      Relationships    *Relationship `orm:"rel(fk)"`  
+} 
+///////////////////////////////////////////////////////////////////
